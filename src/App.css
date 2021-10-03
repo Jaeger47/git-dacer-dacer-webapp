@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: beige;
+  
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 5 px;
+ 
+}
+
+.info input {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.info button {
+  width: 200px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.info button:hover{
+  cursor: pointer;
+}
+
+.info select {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.students {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  width: 100%;
+   font-size: 15px;
+  
+ 
+  
+}
+.students button{
+  margin-top: 35px;
+}
+
+.studentList table {
+  width:100%;
+  border:2px solid black;
+  margin-top: 15px;
+  background-color: white;
+  
+}
+
+.studentList th, td{
+  border:2px solid black;
+  text-align: left;
+  
+}
+
+.studentList input, button {
+  margin: 5px;
+}
+
